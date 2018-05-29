@@ -1,0 +1,529 @@
+body {
+    background-color: #fff;
+}
+
+.container {
+    padding: 0px;
+}
+
+.top-bar {
+    position: fixed;
+    width: 100%;
+    background-color: #eee;
+    z-index: 2;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+}
+
+.page-title {
+    display: block;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.nav-btn {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    color: #000;
+    font-size: 16px;
+}
+
+.swiper-container, .swiper-slide img, .landlord-pic > img {
+    width: 100%;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 0px;
+}
+
+.swiper-pagination {
+    text-align: right;
+    font-size: 14px;
+    color: #fff;
+    padding-right: 10px;
+}
+
+.house-price {
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    height: 42px;
+    padding: 0 12px;
+    line-height: 42px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 14px;
+    z-index: 1;
+}
+
+.house-price > span {
+    font-size: 30px;
+}
+
+.detail-con {
+    padding: 10px;
+    background-color: #eee;
+}
+
+.layout-style {
+    background-color: #fff;
+    margin-top: 2px;
+}
+
+.detail-header {
+    text-align: center;
+    border-radius: 6px 6px 0 0;
+}
+
+.landlord-pic {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.house-title {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.landlord-name {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.house-type > li {
+    padding: 10px 10px 10px 45px;
+}
+
+.icon-text {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 13px;
+    color: #999;
+}
+
+.icon-text > h3 {
+    font-size: 14px;
+    color: #000;
+}
+
+.icon-house, .icon-sofa, .icon-bed, .icon-room, .icon-user, .wirelessnetwork-ico, .wirednetwork-ico, .shower-ico, .tv-ico, .aircondition-ico, .heater-ico, .smoke-ico, .drinking-ico, .brush-ico, .soap-ico, .slippers-ico, .toiletpaper-ico, .towel-ico, .toiletries-ico, .icebox-ico, .washer-ico, .hotbathtub-ico, .elevator-ico, .iscook-ico, .pet-ico, .meet-ico, .accesssys-ico, .parkingspace-ico, .jinzhi-ico {
+    background: url(/static/images/houseicon_sprite.png) 0 0 no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.icon-user {
+    background-position: 0 -163px;
+}
+
+.icon-bed {
+    background-position: 0 -206px;
+}
+
+.icon-house, .icon-user, .icon-bed {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: top;
+}
+
+.wirelessnetwork-ico {
+    background-position: 0 -716px;
+    height: 16px;
+}
+
+.wirednetwork-ico {
+    background-position: 0 -888px;
+    height: 18px;
+}
+
+.shower-ico {
+    background-position: 0 -464px;
+    height: 20px;
+}
+
+.tv-ico {
+    background-position: 0 -344px;
+    height: 16px;
+}
+
+.aircondition-ico {
+    background-position: 0 -433px;
+    height: 20px;
+}
+
+.heater-ico {
+    background-position: 0 -587px;
+    height: 20px;
+}
+
+.smoke-ico {
+    background-position: 0 -804px;
+    height: 20px;
+}
+
+.drinking-ico {
+    background-position: 0 -858px;
+    height: 20px;
+}
+
+.brush-ico {
+    background-position: 0 -831px;
+    height: 20px;
+}
+
+.soap-ico {
+    background-position: 0 -743px;
+    height: 16px;
+}
+
+.slippers-ico {
+    background-position: 0 -684px;
+    height: 20px;
+}
+
+.toiletpaper-ico {
+    background-position: 0 -619px;
+    height: 20px;
+}
+
+.towel-ico {
+    background-position: 0 -496px;
+    height: 20px;
+}
+
+.toiletries-ico {
+    background-position: 0 -555px;
+    height: 20px;
+}
+
+.icebox-ico {
+    background-position: 0 -280px;
+    height: 20px;
+}
+
+.washer-ico {
+    background-position: 0 -771px;
+    height: 20px;
+}
+
+.hotbathtub-ico {
+    background-position: 0 -915px;
+    height: 20px;
+}
+
+.elevator-ico {
+    background-position: 0 -372px;
+    height: 20px;
+}
+
+.iscook-ico {
+    background-position: 0 -944px;
+    height: 18px;
+}
+
+.pet-ico {
+    background-position: 0 -312px;
+    height: 20px;
+}
+
+.meet-ico {
+    background-position: 0 -404px;
+    height: 18px;
+}
+
+.accesssys-ico {
+    background-position: 0 -527px;
+    height: 16px;
+}
+
+.parkingspace-ico {
+    background-position: 0 -652px;
+    height: 21px;
+}
+
+.jinzhi-ico {
+    background-position: 0 -248px;
+    height: 20px;
+}
+
+.house-info, .house-facility {
+    padding: 10px 10px 0;
+    font-size: 14px;
+    color: #999;
+}
+
+.house-info > h3, .house-facility > h3 {
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+}
+
+.house-info-list, .house-facility-list {
+    margin-top: 10px;
+}
+
+.house-info-list > li {
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #eee;
+}
+
+.house-info-list > li > span {
+    float: right;
+    color: #333;
+}
+
+.house-comment-list {
+    border-bottom: 1px solid #eee;
+}
+
+.house-facility-list > li {
+    float: left;
+    width: 50%;
+    height: 39px;
+    line-height: 39px;
+    padding-left: 12px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+    color: #666;
+}
+
+.book-house {
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    background-color: #ff6666;
+    color: #fff;
+    text-align: center;
+}
+
+.book-house:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+ol {
+    list-style: none
+}
+
+*[hidden] {
+    display: none
+}
+
+a {
+    text-decoration: none;
+}
+
+.ipt {
+    border: solid 1px #d2d2d2;
+    border-left-color: #ccc;
+    border-top-color: #ccc;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 0 #f8f8f8;
+    background-color: #fff;
+    padding: 4px 6px;
+    height: 21px;
+    line-height: 21px;
+    color: #555;
+    width: 180px;
+    vertical-align: baseline;
+}
+
+.btn {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    min-width: 52px;
+    padding: 0 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    color: #666;
+    background-color: #f5f5f5;
+    background: -webkit-linear-gradient(top, #F5F5F5, #F1F1F1);
+    background: -moz-linear-gradient(top, #F5F5F5, #F1F1F1);
+    background: linear-gradient(top, #F5F5F5, #F1F1F1);
+}
+
+.btn:hover {
+    border-color: #c6c6c6;
+    color: #333;
+    background-color: #f8f8f8;
+    background: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+    background: -moz-linear-gradient(top, #f8f8f8, #f1f1f1);
+    background: linear-gradient(top, #f8f8f8, #f1f1f1);
+    box-shadow: #ddd 0 1px 1px 0;
+}
+
+.btn:active, .btn.btn-active {
+    box-shadow: #ddd 0 1px 2px 0 inset;
+    border-color: #c6c6c6;
+}
+
+.btn:focus {
+    border-color: #4d90fe;
+    outline: none
+}
+
+.btn-primary {
+    border-color: #3079ED;
+    color: #F3F7FC;
+    background-color: #4D90FE;
+    background: -webkit-linear-gradient(top, #4D90FE, #4787ED);
+    background: -moz-linear-gradient(top, #4D90FE, #4787ED);
+    background: linear-gradient(top, #4D90FE, #4787ED);
+}
+
+.btn-primary:hover {
+    border-color: #2F5BB7;
+    color: #fff;
+    background-color: #4D90FE;
+    background: -webkit-linear-gradient(top, #4D90FE, #357AE8);
+    background: -moz-linear-gradient(top, #4D90FE, #357AE8);
+    background: linear-gradient(top, #4D90FE, #357AE8);
+}
+
+.btn-primary:active, .btn-primary.btn-active {
+    box-shadow: #2176D3 0 1px 2px 0 inset;
+    border-color: #3079ED;
+}
+
+.btn-primary:focus {
+    border-color: #4d90fe;
+    outline: none
+}
+
+.theme-buy {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.theme-signin {
+    font-size: 15px;
+}
+
+.theme-popover-mask {
+    z-index: 9998;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    display: none
+}
+
+.theme-popover {
+    z-index: 9999;
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    height: 260px;
+    margin: -180px 0 0 0;
+    border-radius: 5px;
+    border: solid 2px #666;
+    background-color: #fff;
+    display: none;
+    box-shadow: 0 0 10px #666;
+}
+
+.theme-poptit {
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+    position: relative;
+}
+
+.theme-popbod {
+    padding: 60px 15px;
+    color: #444;
+    height: 148px;
+}
+
+.theme-poptit .close {
+    float: right;
+    color: #999;
+    padding: 5px;
+    margin: -2px -5px -5px;
+    font: bold 14px/14px simsun;
+    text-shadow: 0 1px 0 #ddd
+}
+
+.theme-poptit .close:hover {
+    color: #444;
+}
+
+.dform {
+    padding: 80px 60px 40px;
+    text-align: center;
+}
+
+.dform {
+    border-color: #FFCC66
+}
+
+.theme-signin {
+    margin: -50px -20px -50px 0;
+    text-align: left;
+    font-size: 14px;
+}
+
+.theme-signin h4 {
+    color: #999;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.theme-signin li {
+    margin-bottom: 15px;
+}
+
+.theme-signin li strong {
+    float: left;
+    margin-left: -80px;
+    width: 80px;
+    text-align: right;
+    line-height: 32px;
+}
+
+.theme-signin .btn {
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.theme-signin p {
+    font-size: 12px;
+    color: #999;
+}
+
+.theme-signin a {
+    color: grey;
+}
