@@ -1,0 +1,16 @@
+INSERT INTO `ihome_area` VALUES (NULL, NULL, 1, '锦江区');
+INSERT INTO `ihome_area` VALUES (NULL, NULL, 2, '金牛区');
+INSERT INTO `ihome_area` VALUES (NULL, NULL, 3, '青羊区');
+INSERT INTO `ihome_area` VALUES (NULL, NULL, 4, '高新区');
+INSERT INTO `ihome_area` VALUES (NULL, NULL, 5, '武侯区');
+INSERT INTO `ihome_area` VALUES (NULL, NULL, 6, '天府新区');
+INSERT INTO `ihome_area` VALUES (NULL, NULL, 7, '双流县');
+INSERT INTO `ihome_area` VALUES (NULL, NULL, 8, '成华区');
+INSERT INTO `ihome_area` VALUES (NULL, NULL, 9, '青白江区');
+INSERT INTO `ihome_area` VALUES (NULL, NULL, 10, '新都区');
+INSERT INTO `ihome_area` VALUES (NULL, NULL, 11, '温江区');
+INSERT INTO `ihome_area` VALUES (NULL, NULL, 12, '温江区');
+INSERT INTO `ihome_area` VALUES (NULL, NULL, 13, '郫县');
+INSERT INTO `ihome_area` VALUES (NULL, NULL, 14, '蒲江县');
+INSERT INTO `ihome_area` VALUES (NULL, NULL, 15, '大邑县');
+INSERT INTO `ihome_area` VALUES (NULL, NULL, 16, '新津县');
