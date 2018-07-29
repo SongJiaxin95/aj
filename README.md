@@ -18,17 +18,17 @@ flask项目——爱家
 
 #### 2. 房屋模块接口
 
-  - [首页](docs/house/index.md)
-  - [首页搜索](docs/house/search.md)
-  - [获取区域和设施信息](docs/house/area_facility.md)
-  - [房屋详情](docs/house/detail.md)
+  - [首页](project/aj/docs/house/index.md)
+  - [首页搜索](project/aj/docs/house/search.md)
+  - [获取区域和设施信息](project/aj/docs/house/area_facility.md)
+  - [房屋详情](project/aj/docs/house/detail.md)
 
 #### 3. 预约模块接口
 
-  - [预约页面](docs/order/order.md)
-  - [创建预约](docs/order/create_order.md)
-  - [所有预约单](docs/order/allorders.md)
-  - [房东预约单](docs/order/lorders.md)
-  - [修改预约单状态](docs/order/changeorder.md)
+  - [预约页面](project/aj/docs/order/order.md)
+  - [创建预约](project/aj/docs/order/create_order.md)
+  - [所有预约单](project/aj/docs/order/allorders.md)
+  - [房东预约单](project/aj/docs/order/lorders.md)
+  - [修改预约单状态](project/aj/docs/order/changeorder.md)
 
 
