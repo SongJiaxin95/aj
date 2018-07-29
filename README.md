@@ -6,14 +6,14 @@ flask项目——爱家
 ### 开发接口
 
 #### 1. 用户模块接口
-  - [注册](docs/user/user_register.md)
-  - [登录](docs/user/user_login.md)
+  - [注册](project/aj/docs/user/user_register.md)
+  - [登录](project/aj/docs/user/user_login.md)
   - [个人中心]
-	  - [获取用户信息](docs/user/user_get_msg.md)
-	  - [修改用户信息](docs/user/user_put_msg.md)
-	  - [实名认证](docs/user/user_auth.md)
-	  - [注销](docs/user/user_logout.md)
-	  - [我的房源--实名认证/房屋信息展示](docs/house/auth_myhouse.md)
+	  - [获取用户信息](project/aj/docs/user/user_get_msg.md)
+	  - [修改用户信息](project/aj/docs/user/user_put_msg.md)
+	  - [实名认证](project/aj/docs/user/user_auth.md)
+	  - [注销](project/aj/docs/user/user_logout.md)
+	  - [我的房源--实名认证/房屋信息展示](project/aj/docs/house/auth_myhouse.md)
 	  
 
 #### 2. 房屋模块接口
